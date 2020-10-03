@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tag aside</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			margin: 0;
+		}
+
+		header, footer{
+			height: 10vh;
+			background-color: #ccc;
+		}
+
+		main{
+			height: 80vh;
+			background-color: #999;
+			flex: 1;
+		}
+
+		aside{
+			height: 80vh;
+			background-color: gold;
+			width: 20vw;
+
+			
+		}
+
+		section{
+				display: flex;
+				flex-direction: row;
+		}
+
+		.menu{
+			display: inline;
+			margin: 20px;
+		}
+		.menu-1{
+			margin: 10px;
+			padding: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="menu-1">
+				<li class="menu"><a href="#">Home</a></li>
+				<li class="menu"><a href="#">Sobre</a></li>
+				<li class="menu"><a href="#">Contantos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section>
+		
+			<aside>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Loja virtual</a></li>
+						<li><a href="#">Categorias</a></li>
+						<li><a href="#">Especias</a></li>
+
+					</ul>
+				</nav>
+
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+			</aside>
+			<main></main>
+
+	</section>
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="#">Forum</a></li>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tag canvas</title>
+	<style type="text/css" media="screen">
+		body{
+			background-color: black;
+		}	
+	</style>
+	
+</head>
+<body>
+	<canvas id="quadro">
+		
+	</canvas>
+
+	<script type="text/javascript">
+		const quadro = document.querySelector('#quadro');
+		const contexto = quadro.getContext('2d');
+
+		contexto.fillStyle = '#FF0000';
+		contexto.fillRect(0, 0, 100, 100)
+	</script>
+</body>	
+</html>
